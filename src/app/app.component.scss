@@ -1,5 +1,5 @@
 @use '@angular/material' as mat;
 app-root {
-  $typo: mat.define-typography-config();
+  $typo: mat.define-legacy-typography-configmat.define-legacy-typography-config();
   @include mat.typography-level($typo, subheading-2);
 }
